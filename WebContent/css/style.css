@@ -1,0 +1,109 @@
+@charset "UTF-8";
+.error{
+	color:red;
+	border-style: hidden hidden hidden solid;
+	background:#f4f4f4;
+	width:60%;
+	box-sizing: content-box;
+}
+
+.error-main{
+	color:red;
+	border-style: hidden hidden hidden solid;
+	background:#f4f4f4;
+	box-sizing: content-box;
+}
+
+.error h4, .error-main p {
+	padding:10px;
+}
+
+.login{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-30%, -50%);
+}
+.login input{
+	padding:15px;
+	width:50%;
+	box-sizing: content-box;
+	margin:15px;
+}
+
+.nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #47c9e0;
+}
+
+.nav-bar li {
+    float: right;
+}
+
+.nav-bar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.nav-bar li a:hover:not(#brand) {
+    background-color: #cdd5d8;
+}
+
+#brand:hover{
+	cursor:default;
+}
+
+.profile{
+	border-right-style: solid;
+    border-right-color:#f4f4f4; 
+}
+.init{
+}
+.column {
+    flex: 50%;
+    padding:5%;
+}
+.wall {
+    display:flex;
+}
+.my-profile, .new-post, .my-posts, .friend-posts{
+	padding:25px;
+}
+.card-img-top{
+	padding-bottom:15px;
+	color:#808080;
+	width:50%;
+	height:50%;
+}
+.friend-img{
+	width:30%;
+	height:30%;
+}
+.post{
+	width:18rem; 
+	padding:20px;
+}
+.mybtn{
+	background:#47c9e0; 
+	color:white;
+}
+.opt{
+	color:white;
+}
+.my-friends-section, .all-friends-section, .notification-section{
+	flex-wrap:wrap;
+}
+.friend-card{
+	display:inline-block;
+	margin:30px 0 0 30px;
+	flex-grow: 1;
+	/*width: calc(70% * 1/3 - 10px - 1px)*/
+	width:18rem;
+}
